@@ -1,12 +1,6 @@
 @import url(reset.css);
 
-/* styles.css */
-:root {
-    --primary-color: #0D0D0D;
-    --secondary-color: #DAB370;
-    --text-color: #333;
-    --background-color: #fff;
-}
+
 
 /* @import url(reset.css); */
 @import url("https://use.typekit.net/atc4lzm.css");
@@ -23,7 +17,7 @@
   --background-secondary: #313740;
   --background-white: #F2F0F2;
   --text-color-primary: #C5D3D9;
-  --text-color-secondary: #A3B4BF;
+  --text-color-secondary: #f1efef;
   --emphasis-color: #DAB370;
   --text-color-black: #0d0d0d;
 }
@@ -47,6 +41,7 @@ body {
   width: 90%;
   margin: auto;
   overflow: hidden;
+  padding: 1rem 0;
 }
 
 .btn {
@@ -252,11 +247,6 @@ body {
   text-decoration: none;
 }
 
-.old{
-  filter: grayscale(100%);
-  content: "ENCERRADO";
-}
-
 .contact-section {
   text-align: center;
   background-color: var(--background-secondary);
@@ -275,7 +265,7 @@ body {
   flex-direction: row;
   gap: 0.5rem;
   color: var(--text-color-secondary);
-  padding: 10px 20px;
+  padding: 5px 10px;
   border-radius: 5px;
   text-decoration: none;
   transition: background 0.3s, transform 0.3s;
@@ -285,7 +275,7 @@ body {
   transform: scale(1.1);
 }
 .contact-section .social-links .social-link .link-image {
-  width: 1rem;
+  width: 1.8rem;
 }
 
 .footer {
