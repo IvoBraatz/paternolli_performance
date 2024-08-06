@@ -1,16 +1,5 @@
 @import url(reset.css);
-
-
-
-/* @import url(reset.css); */
 @import url("https://use.typekit.net/atc4lzm.css");
-@import url(store.css);
-@import url(login.css);
-@import url(modal.css);
-@import url(profile.css);
-@import url(events.css);
-@import url(cart.css);
-@import url(header-store.css);
 
 :root{
   --background-primary: #0D0D0D;
